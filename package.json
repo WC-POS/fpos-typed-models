@@ -1,0 +1,21 @@
+{
+  "name": "futurepos-typed-models",
+  "version": "1.0.0",
+  "description": "A collection of TypeORM models built from the FuturePOS DB structure",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "repository": "https://github.com/devinsharpe/fpos-typed-models",
+  "author": "Devin Sharpe <devinrsharpe@gmail.com>",
+  "license": "UNLICENSED",
+  "private": false,
+  "peerDependencies": {
+    "typeorm": "^0.2.41"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "typescript": "^4.5.4"
+  }
+}
